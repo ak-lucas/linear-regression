@@ -9,8 +9,8 @@ class LinearRegression():
 
 	#inicializa os pesos aleatoriamente com amostras da distribuição normal
 	def init_weights(self, dim):
-		#return np.random.randn(dim).reshape(dim,1)
-		return np.ones(dim).reshape(dim,1)
+		return np.random.randn(dim).reshape(dim,1)
+		#return np.ones(dim).reshape(dim,1)
 
 	#função de custo
 	def loss_function(self, Y, gH, m):
